@@ -61,6 +61,7 @@ plugins:
       repository: alamgir-ahosain/alamgir-book
       branch: main
       token: !ENV GH_TOKEN
+      
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: false
