@@ -55,17 +55,17 @@ theme:
     code: Roboto Mono
 
 plugins:
-  # - git-authors
-  # - git-committers:
-  #     enabled: true
-  #     repository: alamgir-ahosain/alamgir-book
-  #     branch: main
-  #     token: !ENV GH_TOKEN
-  # - git-revision-date-localized:
-  #     type: date
-  #     fallback_to_build_date: false
-  #     enable_creation_date: true
-  #     enabled: true
+  - git-authors
+  - git-committers:
+      enabled: true
+      repository: alamgir-ahosain/alamgir-book
+      branch: main
+      token: !ENV GH_TOKEN
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: false
+      enable_creation_date: true
+      enabled: true
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
       links: 
