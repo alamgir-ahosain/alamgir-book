@@ -104,6 +104,7 @@ http://localhost:8080/order-service/order/create
 >Dynamic Routing allows the gateway to automatically discover and route requests to microservice instances without manual configuration.
 
 If user-service has multiple instances (8081, 8082, 8083):
+
 - Without discovery client → manually configure all instances 
 - With discovery client → all instances auto-detected 
 - If one instance goes down → Gateway auto-routes to available instance .
@@ -117,6 +118,7 @@ If user-service has multiple instances (8081, 8082, 8083):
 >Load Balancing distributes incoming traffic across multiple service instances to ensure performance, reliability, and no single server overload.
 
 When client hits API Gateway:
+
 - Gateway checks service registry for available instances
 - Uses load-balancing algorithm (ex: Round-Robin)
 - Sends request to the least busy instance

@@ -10,6 +10,7 @@
 <h4>Problem: Distributed Microservices, Duplicate Configurations</h4>
 
 In a microservices environment, each service often maintains its own configuration:
+
 - Database credentials (name, URL, username, password)
 - Environment properties
 - Common service URLs (e.g., Registry, Gateway)
