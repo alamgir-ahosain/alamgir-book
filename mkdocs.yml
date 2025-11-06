@@ -55,18 +55,18 @@ theme:
     code: Roboto Mono
 
 plugins:
-  - git-authors
-  - git-committers:
-      enabled: true
-      repository: alamgir-ahosain/alamgir-book
-      branch: main
-      token: !ENV GH_TOKEN
+  # - git-authors
+  # - git-committers:
+  #     enabled: true
+  #     repository: alamgir-ahosain/alamgir-book
+  #     branch: main
+  #     token: !ENV GH_TOKEN
       
-  - git-revision-date-localized:
-      type: date
-      fallback_to_build_date: false
-      enable_creation_date: true
-      enabled: true
+  # - git-revision-date-localized:
+  #     type: date
+  #     fallback_to_build_date: false
+  #     enable_creation_date: true
+  #     enabled: true
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
       links: 
@@ -190,6 +190,15 @@ nav:
         - 9.1 Generate JWT Token: spring-boot/spring-security/1-JWT-token-generate copy.md
         - 9.2 Important Class and Their Rules : spring-boot/spring-security/2-authentication-class.md
         - 9.3 JWT Request workflow : spring-boot/spring-security/3-request-workflow.md
+    - 10. Microservices :
+      - Here:
+        - 10.1 Spring Cloud  : spring-boot/microservices/1-spring-cloud.md  
+        - 10.2 Spring Cloud API Gateway : spring-boot/microservices/2-spring-cloud-api-gateway.md
+        - 10.3 Service Registry: spring-boot/microservices/3-service-registry.md
+        - 10.4 Service Discovery: spring-boot/microservices/4-service-discovery.md
+        - 10.5 Spring Cloud Config Server: spring-boot/microservices/5-spring-cloud-config-server.md
+        - 10.6 Spring Cloud Config Client: spring-boot/microservices/6-config-client.md
+        - 10.7 Microservice Communication: spring-boot/microservices/7-microservice-communication.md
 
        
         
