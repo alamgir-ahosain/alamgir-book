@@ -1,1 +1,1 @@
-<h2>Certificate Showcase Here </h2>
+<h1>Certificate Showcase Here </h1>

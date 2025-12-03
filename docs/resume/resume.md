@@ -1,1 +1,1 @@
-<h2>Resume Here</h2>
+<h1>Resume Here</h1>
