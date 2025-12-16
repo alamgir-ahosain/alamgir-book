@@ -230,6 +230,164 @@ nav:
               - 10.6 Spring Cloud Config Client: spring-boot/microservices/6-config-client.md
               - 10.7 Microservice Communication: spring-boot/microservices/7-microservice-communication.md
      
+      - Linux:
+        - 00 . Fundamentals:
+          - 01 . Computer Hardware:
+            - 1. Important Commands: linux/00-Fundamentals/01-Computer-Hardware/00-important-command.md
+            - 2. Motherboard: linux/00-Fundamentals/01-Computer-Hardware/01-motherboard.md
+            - 3. Processor (CPU): linux/00-Fundamentals/01-Computer-Hardware/02-processor-cpu.md
+            - 4. RAM: linux/00-Fundamentals/01-Computer-Hardware/03-ram.md
+            - 5. Buses: linux/00-Fundamentals/01-Computer-Hardware/04-buses.md
+            - 6. Hard Drives: linux/00-Fundamentals/01-Computer-Hardware/05-hard-drives.md
+            - 7. SSD: linux/00-Fundamentals/01-Computer-Hardware/06-ssd.md
+            - 8. Optical Drive: linux/00-Fundamentals/01-Computer-Hardware/07-optical-driver.md
+            - 9. Managing Devices: linux/00-Fundamentals/01-Computer-Hardware/08-managing-device.md
+            - 10. Video & Display Device: linux/00-Fundamentals/01-Computer-Hardware/09-video-display-device.md
+            - 11. Power Supplies: linux/00-Fundamentals/01-Computer-Hardware/10-power-supplies.md
+
+        - 01 . Introduction:
+          - 1. Linux OS: linux/01-Introduction/01-linux-os.md
+          - 2. Package Management: linux/01-Introduction/02-package-management.md
+
+        - 02 . Getting Help:
+          - 1. Man Manual Page: linux/02-Getting-Help/01-man-manual-page.md
+          - 2. Info Documentation: linux/02-Getting-Help/02-info-documentation.md
+
+        - 03 . Command Line Skills:
+          - 1. Shell: linux/03-Command-Line-Skills/01-shell.md
+          - 2. Command Syntax: linux/03-Command-Line-Skills/02-command-syntax.md
+          - 3. Options vs Arguments: linux/03-Command-Line-Skills/03-options-vs-arguments.md
+          - 4. History: linux/03-Command-Line-Skills/04-history.md
+          - 5. Variables: linux/03-Command-Line-Skills/05-variables.md
+          - 6. Command Types: linux/03-Command-Line-Skills/06-command-types.md
+          - 7. Quoting: linux/03-Command-Line-Skills/07-quoting.md
+          - 8. Control Statement: linux/03-Command-Line-Skills/08-control-statement.md
+          - 9. Files and Directories: linux/03-Command-Line-Skills/09-file-and-directions.md
+          
+        - 04 . File and Directory:
+          - 01 . Navigating Filesystem:
+            - 1. Introduction: linux/04-File-and-Directory/01-Navigating-Filesystem/01-introduction.md
+            - 2. Linux Directory Structure: linux/04-File-and-Directory/01-Navigating-Filesystem/02-linux-directory-structure.md
+            - 3. PWD Current Directory: linux/04-File-and-Directory/01-Navigating-Filesystem/03-pwd-current-directory.md
+            - 4. CD Changing Directory: linux/04-File-and-Directory/01-Navigating-Filesystem/04-cd-changing-directory.md
+            - 5. Relative vs Absolute Path: linux/04-File-and-Directory/01-Navigating-Filesystem/05-relative-vs-absolute-path.md
+            - 6. LS Listing Files: linux/04-File-and-Directory/01-Navigating-Filesystem/06-ls-listing-files.md
+
+          - 02 . Management:
+            - 1. Globbing: linux/04-File-and-Directory/02-Management/01-globbing.md
+            - 2. Create File: linux/04-File-and-Directory/02-Management/02-create.md
+            - 3. View File: linux/04-File-and-Directory/02-Management/03-view-file.md
+            - 4. Copy File: linux/04-File-and-Directory/02-Management/04-copy-file.md
+            - 5. Move File: linux/04-File-and-Directory/02-Management/05-move-file.md
+            - 6. Remove File: linux/04-File-and-Directory/02-Management/06-remove-file.md
+            - 7. Cat Echo Redirection: linux/04-File-and-Directory/02-Management/07-cat-echo-redirection.md
+            - 8. Sorting: linux/04-File-and-Directory/02-Management/08-sorting.md
+            - 9. View File Statistics: linux/04-File-and-Directory/02-Management/09-view-file-statistics.md
+            - 10. View File Section: linux/04-File-and-Directory/02-Management/10-view-file-section.md
+            - 11. Filter File Content: linux/04-File-and-Directory/02-Management/11-filter-file-content.md
+            - 12. Regular Expression: linux/04-File-and-Directory/02-Management/12-reguler-expression.md
+
+        - 05 .  Archiving Compression:
+          - 1. Introduction: linux/05-Archiving-Compression/01-introduction.md
+          - 2. Compressing: linux/05-Archiving-Compression/02-compressing.md
+          - 3. Archiving: linux/05-Archiving-Compression/03-archiving.md
+          - 4. Zip: linux/05-Archiving-Compression/04-zip.md
+
+        - 06 . Basic Shell Scripting:
+          - 1. Introduction: linux/06-Basic-Shell-Scripting/01-introduction.md
+          - 2. Conditionals: linux/06-Basic-Shell-Scripting/02-conditionals.md
+          - 3. Loop: linux/06-Basic-Shell-Scripting/03-loop.md
+
+        - 07 . NANO VI Editors:
+          - 1. Nano: linux/07-NANO-VI-Editors/01-nano.md
+          - 2. VI: linux/07-NANO-VI-Editors/02-vi.md
+
+        - 08 . User and Group:
+          - 01 . User and Access:
+            - 0. Command: linux/08-User-and-Group/01-User-and-Access/00-command.md
+            - 1. SU Sudo: linux/08-User-and-Group/01-User-and-Access/01-su-sudo.md
+            - 2. User Accounts: linux/08-User-and-Group/01-User-and-Access/02-user-accounts.md
+            - 3. System Account: linux/08-User-and-Group/01-User-and-Access/03-system-account.md
+            - 4. Group Account: linux/08-User-and-Group/01-User-and-Access/04-group-account.md
+            - 5. View User Info: linux/08-User-and-Group/01-User-and-Access/05-view-user-info.md
+            - 6. View Current User: linux/08-User-and-Group/01-User-and-Access/06-view-current-user.md
+            - 7. Login History: linux/08-User-and-Group/01-User-and-Access/07-login-history.md
+
+          - 02 . Create User and Group:
+            - 0. Command: linux/08-User-and-Group/02-Create-User-and-Group/00-command.md
+            - 1. Introduction: linux/08-User-and-Group/02-Create-User-and-Group/01-introduction.md
+            - 2. Groups: linux/08-User-and-Group/02-Create-User-and-Group/02-groups.md
+            - 3. Create Group: linux/08-User-and-Group/02-Create-User-and-Group/03-create-group.md
+            - 4. Group ID Name Consideration: linux/08-User-and-Group/02-Create-User-and-Group/04-group-id-name-consideration.md
+            - 5. Modify Group: linux/08-User-and-Group/02-Create-User-and-Group/05-modify-group.md
+            - 6. Delete Group: linux/08-User-and-Group/02-Create-User-and-Group/06-delete-group.md
+            - 7. User: linux/08-User-and-Group/02-Create-User-and-Group/07-user.md
+            - 8. User Configuration File: linux/08-User-and-Group/02-Create-User-and-Group/08-user-configuration-file.md
+            - 9. Consideration: linux/08-User-and-Group/02-Create-User-and-Group/09-consideration.md
+            - 10. Create User: linux/08-User-and-Group/02-Create-User-and-Group/10-create-user.md
+            - 11. Update Password: linux/08-User-and-Group/02-Create-User-and-Group/11-update-password.md
+            - 12. Modify User: linux/08-User-and-Group/02-Create-User-and-Group/12-modify-user.md
+            - 13. Delete User: linux/08-User-and-Group/02-Create-User-and-Group/13-delete-user.md
+
+        - 09 . Ownership Permission:
+          - 1. Understanding File Permissions: linux/09-Ownership-Permission/01-understanding-file-permissions.md
+          - 2. Change Group: linux/09-Ownership-Permission/02-change-group.md
+          - 3. Change Group Ownership: linux/09-Ownership-Permission/03-change-group-ownership.md
+          - 4. Change User Group Ownership: linux/09-Ownership-Permission/04-change-user-group-ownership.md
+          - 5. Changing File Permission: linux/09-Ownership-Permission/05-changing-file-permission.md
+          - 6. Default Permission Umask: linux/09-Ownership-Permission/06-default-permission-umask.md
+          - 7. Question and Answer: linux/09-Ownership-Permission/07-question-and-answer.md
+
+        - 10 . Special Directories File:
+          - 1. Setuid: linux/10-Special-Directories-File/01-setuid.md
+          - 2. Setgid: linux/10-Special-Directories-File/02-setgid.md
+
+        - 11 . System Monitoring:
+          - 0. Important Command: linux/11-System-Monitoring/00-Important-command.md
+          - 1. Process: linux/11-System-Monitoring/01-process.md
+          - 2. Process Hierarchy: linux/11-System-Monitoring/02-process-hirarchy.md
+          - 3. View Process Snapshot: linux/11-System-Monitoring/03-view-process-snapshot.md
+          - 4. View Real Time Process: linux/11-System-Monitoring/04-view-real-time-process.md
+          - 5. Memory: linux/11-System-Monitoring/05-memory.md
+          - 6. Log Files: linux/11-System-Monitoring/06-log-files.md
+          - 7. Kernal Message: linux/11-System-Monitoring/07-kernal-message.md
+          - 8. Shutdown Command: linux/11-System-Monitoring/08-shutdown-command.md
+
+        - 12 . Network Configuration:
+          - 0. Command: linux/12-Network-Configuration/00-command.md
+          - 1. Introduction: linux/12-Network-Configuration/01-introduction.md
+          - 2. IP Address: linux/12-Network-Configuration/02-ip-address.md
+          - 3. Configuring Way: linux/12-Network-Configuration/03-configuring-way.md
+          - 4. DNS: linux/12-Network-Configuration/04-dns.md
+          - 5. Network Configure File: linux/12-Network-Configuration/05-network-configure-file.md
+          - 6. ifconfig: linux/12-Network-Configuration/06-ifconfig.md
+          - 7. Route: linux/12-Network-Configuration/07-route.md
+          - 8. Ping: linux/12-Network-Configuration/08-ping.md
+          - 9. Netstat: linux/12-Network-Configuration/09-netstat.md
+          - 10. IP: linux/12-Network-Configuration/10-ip.md
+          - 11. Dig: linux/12-Network-Configuration/11-dig.md
+          - 12. Host: linux/12-Network-Configuration/12-host.md
+          - 13. SSH: linux/12-Network-Configuration/13-ssh.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       - Docker:
            -  1. Kernel: docker/1-kernel.md
            - 2. Virtual Machine: docker/2-virtual-machine.md
@@ -237,9 +395,10 @@ nav:
            - 4. Container vs Virtual Machine: docker/4-container-vs-vm.md
            - 5. Docker and Container: docker/5-docker-and-container.md
            - 6. Docker Engine: docker/6-docker-engine.md
+           
 
-  - Resume: resume/resume.md
-  - Projects: project/projects.md
-  - Certification: certificate/certificate.md
-  - About: about/about.md
+  # - Resume: resume/resume.md
+  # - Projects: project/projects.md
+  # - Certification: certificate/certificate.md
+  # - About: about/about.md
 
