@@ -149,6 +149,16 @@ markdown_extensions:
 
 nav: 
   - Home: index.md
+
+  - Engineering Fundamentals:
+          - 1. Framework: engineering-fundamentals/framework.md    
+          - 2. JAR vs WAR: engineering-fundamentals/jar-vs-war.md    
+          - 3. Maven vs Gradle: engineering-fundamentals/maven-vs-gradle.md
+          - 4. Microservice Architecture: engineering-fundamentals/microservice-architecture.md
+          - 5. Monolithic Architecture: engineering-fundamentals/monolithic-architecture.md   
+          - 6. UUID: engineering-fundamentals/uuid.md    
+          - 7.  JSON vs TOON: engineering-fundamentals/json-vs-toon.md  
+          
   - Spring Framework:
     - 1. Introduction: spring-framework/1-spring-intro.md 
     - 2. Spring Framework Modules: spring-framework/2-spring-modules.md
@@ -358,7 +368,6 @@ nav:
   - Docker:
     - Here: 
       - 00. Fundamentals:
-        - Here:
           -  1. Kernel: docker/1-kernel.md
           - 2. Virtual Machine: docker/2-virtual-machine.md
           - 3. Container: docker/3-container.md
