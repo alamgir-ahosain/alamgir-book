@@ -146,82 +146,69 @@ markdown_extensions:
 
 # copyright: |
   # Copyright &copy; <a href="https://www.linkedin.com/in/alamgir-ahosain/"  target="_blank" rel="noopener">Alamgir Hosain</a>
-nav:
+
+nav: 
   - Home: index.md
-
-  - Notes:
-    - Here:
-      - Engineering Fundamentals:
-          - 1. Framework: engineering-fundamentals/framework.md    
-          - 2. JAR vs WAR: engineering-fundamentals/jar-vs-war.md    
-          - 3. Maven vs Gradle: engineering-fundamentals/maven-vs-gradle.md
-          - 4. Microservice Architecture: engineering-fundamentals/microservice-architecture.md
-          - 5. Monolithic Architecture: engineering-fundamentals/monolithic-architecture.md   
-          - 6. UUID: engineering-fundamentals/uuid.md    
-          - 7.  JSON vs TOON: engineering-fundamentals/json-vs-toon.md
-
-      - Spring Framework:
-          - 1. Introduction: spring-framework/1-spring-intro.md 
-          - 2. Spring Framework Modules: spring-framework/2-spring-modules.md
-          - 3. Pojo and Bean: spring-framework/3-pojo-vs-bean.md
-          - 4. IoC Container: spring-framework/4-ioc-container.md
-          - 5. Dependency Injection: spring-framework/5-dependency-injection.md
-          - 6. Configuration Metadata: spring-framework/6-configuration-metadata.md
-          - 7. Dependency Injection via XML: spring-framework/7-di-xml.md
-          - 8. Creating Bean via Annotation: spring-framework/8-creating-bean-annotation.md
-          - 9. Dependency Injection via Annotation: spring-framework/9-di-annotation.md
-          - 10. Inject Primitive and String Type: spring-framework/10-inject-primitive.md
-          - 11. Spring Bean Scopes: spring-framework/11-bean-scope.md
-          - 12. Spring Bean Life Cycles: spring-framework/12-life-cycle-method.md
-          - 13. Spring JDBC: spring-framework/13-spring-jdbc.md
-
-      - Spring Boot:
-          - 1. Introduction: spring-boot/1-introduction.md
-          - 2. Spring Boot Runner: spring-boot/2-spring-runner.md
-
-          - 3. Spring Data JPA:
-              - 3.1 Entity class and JPA Repository: spring-boot/data-jpa/1-entity-jpa-repository.md
-              - 3.2 CRUD workflow: spring-boot/data-jpa/2-crud-workflow.md
-              - 3.3 CRUD Operation: spring-boot/data-jpa/3-crud-operation.md
-              - 3.4 DDL - Data Definition Language: spring-boot/data-jpa/4-ddl.md
-              - 3.5 Sorting and Pagination: spring-boot/data-jpa/5-sorting-pagination.md
-              - 3.6 Native SQL Query: spring-boot/data-jpa/6-native-sql.md
-              - 3.7 JPQL Query: spring-boot/data-jpa/7-jpql.md
-              - 3.8 Entity Relationship Mapping: spring-boot/data-jpa/8-entity-mapping.md
-
-          - 4. Spring Web MVC:
-              - 4.1 HTTP Port and Context Path: spring-boot/web-mvc/1-port-and-contextpath.md
-              - 4.2 Stereotype Annotations: spring-boot/web-mvc/2-stereotype-annotations.md
-              - 4.3 MVC Architecture: spring-boot/web-mvc/3-mvc-architecture.md
-              - 4.4 MVC Workflow: spring-boot/web-mvc/4-mvc-workflow.md
-              - 4.5 How Spring MVC Works Internally?: spring-boot/web-mvc/5-how-mvc-works.md
-              - 4.6 Monolithic Architecture: spring-boot/web-mvc/6-monolithic-architecture.md
-              - 4.7 RequestMapping and @GetMapping: spring-boot/web-mvc/7-requestmapping-getmapping.md
-              - 4.8 ModelAndView: spring-boot/web-mvc/8-ModelAndView.md
-              - 4.9 REST Service:
-                  - 4.10 SOAP vs REST: spring-boot/web-mvc/9-SOAP-vs-REST.md
-                  - 4.11 Swagger API Documentation: spring-boot/web-mvc/10-Swagger API Documentation.md
-                  - 4.12 Controller vs RestController: spring-boot/web-mvc/11-Controller vs RestController.md
-                  - 4.13 RequestMapping Annotation: spring-boot/web-mvc/12-requestmapping.md
-                  - 4.14 JSONProperty: spring-boot/web-mvc/13-Json Property.md
-                  - 4.15 RequestBody Validation: spring-boot/web-mvc/14-requestBody validation.md
-                  - 4.16 Path Parameters vs Query Params: spring-boot/web-mvc/15-Path vs Query Parameters.md
-                  - 4.17 HTTP Response Status Code: spring-boot/web-mvc/16-HTTP responce status code.md
-                  - 4.18 HTTP Headers: spring-boot/web-mvc/17-HTTP headers.md
-                  - 4.19 Consuming REST Service: spring-boot/web-mvc/18-consuming-rest-api.md
-                  - 4.20 Exception Handling: spring-boot/web-mvc/19-exception-handling.md
-
-          - 5. Spring Boot Actuator: spring-boot/5-actuator.md
-          - 6. Config Files - properties vs yml: spring-boot/6-yaml-vs-properties.md
-          - 7. Spring Boot Profiles: spring-boot/7-profiles.md
-          - 8. Logging in Spring Boot: spring-boot/8-logging.md
-
-          - 9. Spring Security:
-              - 9.1 Generate JWT Token: spring-boot/spring-security/1-JWT-token-generate copy.md
-              - 9.2 Important Class and Their Rules: spring-boot/spring-security/2-authentication-class.md
-              - 9.3 JWT Request workflow: spring-boot/spring-security/3-request-workflow.md
-
-          - 10. Microservices:
+  - Spring Framework:
+    - 1. Introduction: spring-framework/1-spring-intro.md 
+    - 2. Spring Framework Modules: spring-framework/2-spring-modules.md
+    - 3. Pojo and Bean: spring-framework/3-pojo-vs-bean.md
+    - 4. IoC Container: spring-framework/4-ioc-container.md
+    - 5. Dependency Injection: spring-framework/5-dependency-injection.md
+    - 6. Configuration Metadata: spring-framework/6-configuration-metadata.md
+    - 7. Dependency Injection via XML: spring-framework/7-di-xml.md
+    - 8. Creating Bean via Annotation: spring-framework/8-creating-bean-annotation.md
+    - 9. Dependency Injection via Annotation: spring-framework/9-di-annotation.md
+    - 10. Inject Primitive and String Type: spring-framework/10-inject-primitive.md
+    - 11. Spring Bean Scopes: spring-framework/11-bean-scope.md
+    - 12. Spring Bean Life Cycles: spring-framework/12-life-cycle-method.md
+    - 13. Spring JDBC: spring-framework/13-spring-jdbc.md
+  - Spring Boot:
+     - 1. Introduction: spring-boot/1-introduction.md
+     - 2. Spring Boot Runner: spring-boot/2-spring-runner.md
+     - 3. Spring Data JPA:
+        - Here : 
+          - 3.1 Entity class and JPA Repository: spring-boot/data-jpa/1-entity-jpa-repository.md
+          - 3.2 CRUD workflow: spring-boot/data-jpa/2-crud-workflow.md
+          - 3.3 CRUD Operation: spring-boot/data-jpa/3-crud-operation.md
+          - 3.4 DDL - Data Definition Language: spring-boot/data-jpa/4-ddl.md
+          - 3.5 Sorting and Pagination: spring-boot/data-jpa/5-sorting-pagination.md
+          - 3.6 Native SQL Query: spring-boot/data-jpa/6-native-sql.md
+          - 3.7 JPQL Query: spring-boot/data-jpa/7-jpql.md
+          - 3.8 Entity Relationship Mapping: spring-boot/data-jpa/8-entity-mapping.md
+     - 4. Spring Web MVC:
+        - Here :
+           - 4.1 HTTP Port and Context Path: spring-boot/web-mvc/1-port-and-contextpath.md
+           - 4.2 Stereotype Annotations: spring-boot/web-mvc/2-stereotype-annotations.md
+           - 4.3 MVC Architecture: spring-boot/web-mvc/3-mvc-architecture.md
+           - 4.4 MVC Workflow: spring-boot/web-mvc/4-mvc-workflow.md
+           - 4.5 How Spring MVC Works Internally?: spring-boot/web-mvc/5-how-mvc-works.md
+           - 4.6 Monolithic Architecture: spring-boot/web-mvc/6-monolithic-architecture.md
+           - 4.7 RequestMapping and @GetMapping: spring-boot/web-mvc/7-requestmapping-getmapping.md
+           - 4.8 ModelAndView: spring-boot/web-mvc/8-ModelAndView.md
+           - 4.9 REST Service:
+              - 4.10 SOAP vs REST: spring-boot/web-mvc/9-SOAP-vs-REST.md
+              - 4.11 Swagger API Documentation: spring-boot/web-mvc/10-Swagger API Documentation.md
+              - 4.12 Controller vs RestController: spring-boot/web-mvc/11-Controller vs RestController.md
+              - 4.13 RequestMapping Annotation: spring-boot/web-mvc/12-requestmapping.md
+              - 4.14 JSONProperty: spring-boot/web-mvc/13-Json Property.md
+              - 4.15 RequestBody Validation: spring-boot/web-mvc/14-requestBody validation.md
+              - 4.16 Path Parameters vs Query Params: spring-boot/web-mvc/15-Path vs Query Parameters.md
+              - 4.17 HTTP Response Status Code: spring-boot/web-mvc/16-HTTP responce status code.md
+              - 4.18 HTTP Headers: spring-boot/web-mvc/17-HTTP headers.md
+              - 4.19 Consuming REST Service: spring-boot/web-mvc/18-consuming-rest-api.md
+              - 4.20 Exception Handling: spring-boot/web-mvc/19-exception-handling.md
+     - 5. Spring Boot Actuator: spring-boot/5-actuator.md
+     - 6. Config Files - properties vs yml: spring-boot/6-yaml-vs-properties.md
+     - 7. Spring Boot Profiles: spring-boot/7-profiles.md
+     - 8. Logging in Spring Boot: spring-boot/8-logging.md
+     - 9. Spring Security:
+        - Here :
+            - 9.1 Generate JWT Token: spring-boot/spring-security/1-JWT-token-generate copy.md
+            - 9.2 Important Class and Their Rules: spring-boot/spring-security/2-authentication-class.md
+            - 9.3 JWT Request workflow: spring-boot/spring-security/3-request-workflow.md
+     - 10. Microservices:
+       - Here:
               - 10.1 Spring Cloud: spring-boot/microservices/1-spring-cloud.md  
               - 10.2 Spring Cloud API Gateway: spring-boot/microservices/2-spring-cloud-api-gateway.md
               - 10.3 Service Registry: spring-boot/microservices/3-service-registry.md
@@ -229,176 +216,152 @@ nav:
               - 10.5 Spring Cloud Config Server: spring-boot/microservices/5-spring-cloud-config-server.md
               - 10.6 Spring Cloud Config Client: spring-boot/microservices/6-config-client.md
               - 10.7 Microservice Communication: spring-boot/microservices/7-microservice-communication.md
-     
-      - Linux:
-        - 00 . Fundamentals:
-          - 01 . Computer Hardware:
-            - 1. Important Commands: linux/00-Fundamentals/01-Computer-Hardware/00-important-command.md
-            - 2. Motherboard: linux/00-Fundamentals/01-Computer-Hardware/01-motherboard.md
-            - 3. Processor (CPU): linux/00-Fundamentals/01-Computer-Hardware/02-processor-cpu.md
-            - 4. RAM: linux/00-Fundamentals/01-Computer-Hardware/03-ram.md
-            - 5. Buses: linux/00-Fundamentals/01-Computer-Hardware/04-buses.md
-            - 6. Hard Drives: linux/00-Fundamentals/01-Computer-Hardware/05-hard-drives.md
-            - 7. SSD: linux/00-Fundamentals/01-Computer-Hardware/06-ssd.md
-            - 8. Optical Drive: linux/00-Fundamentals/01-Computer-Hardware/07-optical-driver.md
-            - 9. Managing Devices: linux/00-Fundamentals/01-Computer-Hardware/08-managing-device.md
-            - 10. Video & Display Device: linux/00-Fundamentals/01-Computer-Hardware/09-video-display-device.md
-            - 11. Power Supplies: linux/00-Fundamentals/01-Computer-Hardware/10-power-supplies.md
 
+  - Linux:
+    - Here:
+        - 00. Fundamentals:
+            - 01 . Computer Hardware:
+              - 1. Important Commands: linux/00-Fundamentals/01-Computer-Hardware/00-important-command.md
+              - 2. Motherboard: linux/00-Fundamentals/01-Computer-Hardware/01-motherboard.md
+              - 3. Processor (CPU): linux/00-Fundamentals/01-Computer-Hardware/02-processor-cpu.md
+              - 4. RAM: linux/00-Fundamentals/01-Computer-Hardware/03-ram.md
+              - 5. Buses: linux/00-Fundamentals/01-Computer-Hardware/04-buses.md
+              - 6. Hard Drives: linux/00-Fundamentals/01-Computer-Hardware/05-hard-drives.md
+              - 7. SSD: linux/00-Fundamentals/01-Computer-Hardware/06-ssd.md
+              - 8. Optical Drive: linux/00-Fundamentals/01-Computer-Hardware/07-optical-driver.md
+              - 9. Managing Devices: linux/00-Fundamentals/01-Computer-Hardware/08-managing-device.md
+              - 10. Video & Display Device: linux/00-Fundamentals/01-Computer-Hardware/09-video-display-device.md
+              - 11. Power Supplies: linux/00-Fundamentals/01-Computer-Hardware/10-power-supplies.md
         - 01 . Introduction:
-          - 1. Linux OS: linux/01-Introduction/01-linux-os.md
-          - 2. Package Management: linux/01-Introduction/02-package-management.md
-
+            - 1. Linux OS: linux/01-Introduction/01-linux-os.md
+            - 2. Package Management: linux/01-Introduction/02-package-management.md
         - 02 . Getting Help:
-          - 1. Man Manual Page: linux/02-Getting-Help/01-man-manual-page.md
-          - 2. Info Documentation: linux/02-Getting-Help/02-info-documentation.md
-
+            - 1. Man Manual Page: linux/02-Getting-Help/01-man-manual-page.md
+            - 2. Info Documentation: linux/02-Getting-Help/02-info-documentation.md
         - 03 . Command Line Skills:
-          - 1. Shell: linux/03-Command-Line-Skills/01-shell.md
-          - 2. Command Syntax: linux/03-Command-Line-Skills/02-command-syntax.md
-          - 3. Options vs Arguments: linux/03-Command-Line-Skills/03-options-vs-arguments.md
-          - 4. History: linux/03-Command-Line-Skills/04-history.md
-          - 5. Variables: linux/03-Command-Line-Skills/05-variables.md
-          - 6. Command Types: linux/03-Command-Line-Skills/06-command-types.md
-          - 7. Quoting: linux/03-Command-Line-Skills/07-quoting.md
-          - 8. Control Statement: linux/03-Command-Line-Skills/08-control-statement.md
-          - 9. Files and Directories: linux/03-Command-Line-Skills/09-file-and-directions.md
-          
-        - 04 . File and Directory:
-          - 01 . Navigating Filesystem:
-            - 1. Introduction: linux/04-File-and-Directory/01-Navigating-Filesystem/01-introduction.md
-            - 2. Linux Directory Structure: linux/04-File-and-Directory/01-Navigating-Filesystem/02-linux-directory-structure.md
-            - 3. PWD Current Directory: linux/04-File-and-Directory/01-Navigating-Filesystem/03-pwd-current-directory.md
-            - 4. CD Changing Directory: linux/04-File-and-Directory/01-Navigating-Filesystem/04-cd-changing-directory.md
-            - 5. Relative vs Absolute Path: linux/04-File-and-Directory/01-Navigating-Filesystem/05-relative-vs-absolute-path.md
-            - 6. LS Listing Files: linux/04-File-and-Directory/01-Navigating-Filesystem/06-ls-listing-files.md
+            - 1. Shell: linux/03-Command-Line-Skills/01-shell.md
+            - 2. Command Syntax: linux/03-Command-Line-Skills/02-command-syntax.md
+            - 3. Options vs Arguments: linux/03-Command-Line-Skills/03-options-vs-arguments.md
+            - 4. History: linux/03-Command-Line-Skills/04-history.md
+            - 5. Variables: linux/03-Command-Line-Skills/05-variables.md
+            - 6. Command Types: linux/03-Command-Line-Skills/06-command-types.md
+            - 7. Quoting: linux/03-Command-Line-Skills/07-quoting.md
+            - 8. Control Statement: linux/03-Command-Line-Skills/08-control-statement.md
+            - 9. Files and Directories: linux/03-Command-Line-Skills/09-file-and-directions.md
 
-          - 02 . Management:
-            - 1. Globbing: linux/04-File-and-Directory/02-Management/01-globbing.md
-            - 2. Create File: linux/04-File-and-Directory/02-Management/02-create.md
-            - 3. View File: linux/04-File-and-Directory/02-Management/03-view-file.md
-            - 4. Copy File: linux/04-File-and-Directory/02-Management/04-copy-file.md
-            - 5. Move File: linux/04-File-and-Directory/02-Management/05-move-file.md
-            - 6. Remove File: linux/04-File-and-Directory/02-Management/06-remove-file.md
-            - 7. Cat Echo Redirection: linux/04-File-and-Directory/02-Management/07-cat-echo-redirection.md
-            - 8. Sorting: linux/04-File-and-Directory/02-Management/08-sorting.md
-            - 9. View File Statistics: linux/04-File-and-Directory/02-Management/09-view-file-statistics.md
-            - 10. View File Section: linux/04-File-and-Directory/02-Management/10-view-file-section.md
-            - 11. Filter File Content: linux/04-File-and-Directory/02-Management/11-filter-file-content.md
-            - 12. Regular Expression: linux/04-File-and-Directory/02-Management/12-reguler-expression.md
+        - 04. File and Directory:
+            - 01 . Navigating the Filesystem :
+              - 1. Introduction: linux/04-File-and-Directory/01-Navigating-Filesystem/01-introduction.md
+              - 2. Linux Directory Structure: linux/04-File-and-Directory/01-Navigating-Filesystem/02-linux-directory-structure.md
+              - 3. PWD - Current Directory: linux/04-File-and-Directory/01-Navigating-Filesystem/03-pwd-current-directory.md
+              - 4. CD -  Changing Directory: linux/04-File-and-Directory/01-Navigating-Filesystem/04-cd-changing-directory.md
+              - 5. Relative vs Absolute Path: linux/04-File-and-Directory/01-Navigating-Filesystem/05-relative-vs-absolute-path.md
+              - 6. ls - Listing Files: linux/04-File-and-Directory/01-Navigating-Filesystem/06-ls-listing-files.md
+            - 02 . File Managemen :
+              - 1. Globbing Character: linux/04-File-and-Directory/02-Management/01-globbing.md
+              - 2. Create File: linux/04-File-and-Directory/02-Management/02-create.md
+              - 3. View File: linux/04-File-and-Directory/02-Management/03-view-file.md
+              - 4. Copy File: linux/04-File-and-Directory/02-Management/04-copy-file.md
+              - 5. Move File: linux/04-File-and-Directory/02-Management/05-move-file.md
+              - 6. Remove File: linux/04-File-and-Directory/02-Management/06-remove-file.md
+              - 7. Cat Echo Redirection: linux/04-File-and-Directory/02-Management/    
 
-        - 05 .  Archiving Compression:
-          - 1. Introduction: linux/05-Archiving-Compression/01-introduction.md
-          - 2. Compressing: linux/05-Archiving-Compression/02-compressing.md
-          - 3. Archiving: linux/05-Archiving-Compression/03-archiving.md
-          - 4. Zip: linux/05-Archiving-Compression/04-zip.md
+
+        - 05. Archiving and Compression :
+              - 1. Introduction: linux/05-Archiving-Compression/01-introduction.md
+              - 2. Compressing File: linux/05-Archiving-Compression/02-compressing.md
+              - 3. Archiving File: linux/05-Archiving-Compression/03-archiving.md
+              - 4. ZIP File: linux/05-Archiving-Compression/04-zip.md     
 
         - 06 . Basic Shell Scripting:
-          - 1. Introduction: linux/06-Basic-Shell-Scripting/01-introduction.md
-          - 2. Conditionals: linux/06-Basic-Shell-Scripting/02-conditionals.md
-          - 3. Loop: linux/06-Basic-Shell-Scripting/03-loop.md
+              - 1. Introduction: linux/06-Basic-Shell-Scripting/01-introduction.md
+              - 2. Conditionals - if-else: linux/06-Basic-Shell-Scripting/02-conditionals.md
+              - 3. Loop - for and while: linux/06-Basic-Shell-Scripting/03-loop.md
+            
 
-        - 07 . NANO VI Editors:
-          - 1. Nano: linux/07-NANO-VI-Editors/01-nano.md
-          - 2. VI: linux/07-NANO-VI-Editors/02-vi.md
+        - 07. NANO and VI Editors:
+
+              - 1. Nano: linux/07-NANO-VI-Editors/01-nano.md
+              - 2. VI: linux/07-NANO-VI-Editors/02-vi.md
 
         - 08 . User and Group:
-          - 01 . User and Access:
-            - 0. Command: linux/08-User-and-Group/01-User-and-Access/00-command.md
-            - 1. SU Sudo: linux/08-User-and-Group/01-User-and-Access/01-su-sudo.md
-            - 2. User Accounts: linux/08-User-and-Group/01-User-and-Access/02-user-accounts.md
-            - 3. System Account: linux/08-User-and-Group/01-User-and-Access/03-system-account.md
-            - 4. Group Account: linux/08-User-and-Group/01-User-and-Access/04-group-account.md
-            - 5. View User Info: linux/08-User-and-Group/01-User-and-Access/05-view-user-info.md
-            - 6. View Current User: linux/08-User-and-Group/01-User-and-Access/06-view-current-user.md
-            - 7. Login History: linux/08-User-and-Group/01-User-and-Access/07-login-history.md
+            - 01 . User and Access:
+              - 0. Command: linux/08-User-and-Group/01-User-and-Access/00-command.md
+              - 1. su and sudo command: linux/08-User-and-Group/01-User-and-Access/01-su-sudo.md
+              - 2. User Accounts: linux/08-User-and-Group/01-User-and-Access/02-user-accounts.md
+              - 3. System Account: linux/08-User-and-Group/01-User-and-Access/03-system-account.md
+              - 4. Group Account: linux/08-User-and-Group/01-User-and-Access/04-group-account.md
+              - 5. View User Info: linux/08-User-and-Group/01-User-and-Access/05-view-user-info.md
+              - 6. View Current User: linux/08-User-and-Group/01-User-and-Access/06-view-current-user.md
+              - 7. Login History: linux/08-User-and-Group/01-User-and-Access/07-login-history.md
 
-          - 02 . Create User and Group:
-            - 0. Command: linux/08-User-and-Group/02-Create-User-and-Group/00-command.md
-            - 1. Introduction: linux/08-User-and-Group/02-Create-User-and-Group/01-introduction.md
-            - 2. Groups: linux/08-User-and-Group/02-Create-User-and-Group/02-groups.md
-            - 3. Create Group: linux/08-User-and-Group/02-Create-User-and-Group/03-create-group.md
-            - 4. Group ID Name Consideration: linux/08-User-and-Group/02-Create-User-and-Group/04-group-id-name-consideration.md
-            - 5. Modify Group: linux/08-User-and-Group/02-Create-User-and-Group/05-modify-group.md
-            - 6. Delete Group: linux/08-User-and-Group/02-Create-User-and-Group/06-delete-group.md
-            - 7. User: linux/08-User-and-Group/02-Create-User-and-Group/07-user.md
-            - 8. User Configuration File: linux/08-User-and-Group/02-Create-User-and-Group/08-user-configuration-file.md
-            - 9. Consideration: linux/08-User-and-Group/02-Create-User-and-Group/09-consideration.md
-            - 10. Create User: linux/08-User-and-Group/02-Create-User-and-Group/10-create-user.md
-            - 11. Update Password: linux/08-User-and-Group/02-Create-User-and-Group/11-update-password.md
-            - 12. Modify User: linux/08-User-and-Group/02-Create-User-and-Group/12-modify-user.md
-            - 13. Delete User: linux/08-User-and-Group/02-Create-User-and-Group/13-delete-user.md
+            - 02 . Create User and Group:
+              - 0. Command: linux/08-User-and-Group/02-Create-User-and-Group/00-command.md
+              - 1. Introduction: linux/08-User-and-Group/02-Create-User-and-Group/01-introduction.md
+              - 2. Groups: linux/08-User-and-Group/02-Create-User-and-Group/02-groups.md
+              - 3. Create Group: linux/08-User-and-Group/02-Create-User-and-Group/03-create-group.md
+              - 4. Group ID Name Consideration: linux/08-User-and-Group/02-Create-User-and-Group/04-group-id-name-consideration.md
+              - 5. Modify Group: linux/08-User-and-Group/02-Create-User-and-Group/05-modify-group.md
+              - 6. Delete Group: linux/08-User-and-Group/02-Create-User-and-Group/06-delete-group.md
+              - 7. User: linux/08-User-and-Group/02-Create-User-and-Group/07-user.md
+              - 8. User Configuration File: linux/08-User-and-Group/02-Create-User-and-Group/08-user-configuration-file.md
+              - 9. Consideration: linux/08-User-and-Group/02-Create-User-and-Group/09-consideration.md
+              - 10. Create User: linux/08-User-and-Group/02-Create-User-and-Group/10-create-user.md
+              - 11. Update Password: linux/08-User-and-Group/02-Create-User-and-Group/11-update-password.md
+              - 12. Modify User: linux/08-User-and-Group/02-Create-User-and-Group/12-modify-user.md
+              - 13. Delete User: linux/08-User-and-Group/02-Create-User-and-Group/13-delete-user.md
 
-        - 09 . Ownership Permission:
-          - 1. Understanding File Permissions: linux/09-Ownership-Permission/01-understanding-file-permissions.md
-          - 2. Change Group: linux/09-Ownership-Permission/02-change-group.md
-          - 3. Change Group Ownership: linux/09-Ownership-Permission/03-change-group-ownership.md
-          - 4. Change User Group Ownership: linux/09-Ownership-Permission/04-change-user-group-ownership.md
-          - 5. Changing File Permission: linux/09-Ownership-Permission/05-changing-file-permission.md
-          - 6. Default Permission Umask: linux/09-Ownership-Permission/06-default-permission-umask.md
-          - 7. Question and Answer: linux/09-Ownership-Permission/07-question-and-answer.md
+        - 09 . Ownership and Permission:
+              - 1. Understanding File Permissions: linux/09-Ownership-Permission/01-understanding-file-permissions.md
+              - 2. Change Group: linux/09-Ownership-Permission/02-change-group.md
+              - 3. Change Group Ownership: linux/09-Ownership-Permission/03-change-group-ownership.md
+              - 4. Change User Group Ownership: linux/09-Ownership-Permission/04-change-user-group-ownership.md
+              - 5. Changing File Permission: linux/09-Ownership-Permission/05-changing-file-permission.md
+              - 6. Default Permission -  Umask: linux/09-Ownership-Permission/06-default-permission-umask.md
+              - 7. Question and Answer: linux/09-Ownership-Permission/07-question-and-answer.md
 
         - 10 . Special Directories File:
-          - 1. Setuid: linux/10-Special-Directories-File/01-setuid.md
-          - 2. Setgid: linux/10-Special-Directories-File/02-setgid.md
+              - 0. Command: linux/08-User-and-Group/01-User-and-Access/00-command.md
+              - 1. Setuid: linux/10-Special-Directories-File/01-setuid.md
+              - 2. Setgid: linux/10-Special-Directories-File/02-setgid.md
 
         - 11 . System Monitoring:
-          - 0. Important Command: linux/11-System-Monitoring/00-Important-command.md
-          - 1. Process: linux/11-System-Monitoring/01-process.md
-          - 2. Process Hierarchy: linux/11-System-Monitoring/02-process-hirarchy.md
-          - 3. View Process Snapshot: linux/11-System-Monitoring/03-view-process-snapshot.md
-          - 4. View Real Time Process: linux/11-System-Monitoring/04-view-real-time-process.md
-          - 5. Memory: linux/11-System-Monitoring/05-memory.md
-          - 6. Log Files: linux/11-System-Monitoring/06-log-files.md
-          - 7. Kernal Message: linux/11-System-Monitoring/07-kernal-message.md
-          - 8. Shutdown Command: linux/11-System-Monitoring/08-shutdown-command.md
+              - 0. Important Command: linux/11-System-Monitoring/00-Important-command.md
+              - 1. Process: linux/11-System-Monitoring/01-process.md
+              - 2. Process Hierarchy: linux/11-System-Monitoring/02-process-hirarchy.md
+              - 3. View Process Snapshot: linux/11-System-Monitoring/03-view-process-snapshot.md
+              - 4. View Real Time Process: linux/11-System-Monitoring/04-view-real-time-process.md
+              - 5. Memory: linux/11-System-Monitoring/05-memory.md
+              - 6. Log Files: linux/11-System-Monitoring/06-log-files.md
+              - 7. Kernal Message: linux/11-System-Monitoring/07-kernal-message.md
+              - 8. Shutdown Command: linux/11-System-Monitoring/08-shutdown-command.md
+
+
 
         - 12 . Network Configuration:
-          - 0. Command: linux/12-Network-Configuration/00-command.md
-          - 1. Introduction: linux/12-Network-Configuration/01-introduction.md
-          - 2. IP Address: linux/12-Network-Configuration/02-ip-address.md
-          - 3. Configuring Way: linux/12-Network-Configuration/03-configuring-way.md
-          - 4. DNS: linux/12-Network-Configuration/04-dns.md
-          - 5. Network Configure File: linux/12-Network-Configuration/05-network-configure-file.md
-          - 6. ifconfig: linux/12-Network-Configuration/06-ifconfig.md
-          - 7. Route: linux/12-Network-Configuration/07-route.md
-          - 8. Ping: linux/12-Network-Configuration/08-ping.md
-          - 9. Netstat: linux/12-Network-Configuration/09-netstat.md
-          - 10. IP: linux/12-Network-Configuration/10-ip.md
-          - 11. Dig: linux/12-Network-Configuration/11-dig.md
-          - 12. Host: linux/12-Network-Configuration/12-host.md
-          - 13. SSH: linux/12-Network-Configuration/13-ssh.md
+              - 0. Command: linux/12-Network-Configuration/00-command.md
+              - 1. Introduction: linux/12-Network-Configuration/01-introduction.md
+              - 2. IP Address: linux/12-Network-Configuration/02-ip-address.md
+              - 3. Configuring Way: linux/12-Network-Configuration/03-configuring-way.md
+              - 4. DNS: linux/12-Network-Configuration/04-dns.md
+              - 5. Network Configure File: linux/12-Network-Configuration/05-network-configure-file.md
+              - 6. ifconfig: linux/12-Network-Configuration/06-ifconfig.md
+              - 7. Route: linux/12-Network-Configuration/07-route.md
+              - 8. Ping: linux/12-Network-Configuration/08-ping.md
+              - 9. Netstat: linux/12-Network-Configuration/09-netstat.md
+              - 10. IP: linux/12-Network-Configuration/10-ip.md
+              - 11. Dig: linux/12-Network-Configuration/11-dig.md
+              - 12. Host: linux/12-Network-Configuration/12-host.md
+              - 13. SSH: linux/12-Network-Configuration/13-ssh.md                    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      - Docker:
-           -  1. Kernel: docker/1-kernel.md
-           - 2. Virtual Machine: docker/2-virtual-machine.md
-           - 3. Container: docker/3-container.md
-           - 4. Container vs Virtual Machine: docker/4-container-vs-vm.md
-           - 5. Docker and Container: docker/5-docker-and-container.md
-           - 6. Docker Engine: docker/6-docker-engine.md
-           
-
-  # - Resume: resume/resume.md
-  # - Projects: project/projects.md
-  # - Certification: certificate/certificate.md
-  # - About: about/about.md
-
+  - Docker:
+    - Here: 
+      - 00. Fundamentals:
+        - Here:
+          -  1. Kernel: docker/1-kernel.md
+          - 2. Virtual Machine: docker/2-virtual-machine.md
+          - 3. Container: docker/3-container.md
+          - 4. Container vs Virtual Machine: docker/4-container-vs-vm.md
+          - 5. Docker and Container: docker/5-docker-and-container.md
+          - 6. Docker Engine: docker/6-docker-engine.md
