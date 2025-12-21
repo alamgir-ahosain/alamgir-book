@@ -229,6 +229,7 @@ nav:
 
   - Linux:
     - Here:
+        - Topic Covered: linux/topics-covered.md
         - 00. Fundamentals:
             - 01 . Computer Hardware:
               - 1. Important Commands: linux/00-Fundamentals/01-Computer-Hardware/00-important-command.md
