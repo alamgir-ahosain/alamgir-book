@@ -227,6 +227,44 @@ nav:
               - 10.6 Spring Cloud Config Client: spring-boot/microservices/6-config-client.md
               - 10.7 Microservice Communication: spring-boot/microservices/7-microservice-communication.md
 
+  - Git:
+    - Here:
+      - Topic Covered: git/topics-covered.md
+      - 00. Getting Started:
+        - 0. Terminology: git/00-getting-started/00-terminology.md
+        - 1. .git Folder: git/00-getting-started/01-git-folder.md
+        - 2. Git Behind the Scenes: git/00-getting-started/02-git-behind-the-scenes.md
+        - 3. gitignore: git/00-getting-started/03-gitignore.md
+
+      - 01. Basic Workflow:
+        - 1. git init: git/01-basic-workflow/01-git-init.md
+        - 2. git status: git/01-basic-workflow/02-git-status.md
+        - 3. git add: git/01-basic-workflow/03-git-add.md
+        - 4. git commit: git/01-basic-workflow/04-git-commit.md  
+
+      - 02. Branching and Merging:
+        - 1. Branch: git/02-branching-and-merging/01-branches.md
+        - 2. Merge: git/02-branching-and-merging/02-merge.md
+        - 3. Rebase: git/02-branching-and-merging/03-rebase.md
+
+      - 03. Working with Histroy:
+        - 1. git log: git/03-working-with-history/01-git-log.md
+        - 2. git diff: git/03-working-with-history/02-git-diff.md
+        - 3. git tag: git/03-working-with-history/03-git-tag.md
+        - 4. git reflog: git/03-working-with-history/04-git-reflog.md
+
+      - 04. Undo and Recovery:
+        - 1. git rm: git/04-undo-and-recovery/01-git-rm.md
+        - 2. git checkout: git/04-undo-and-recovery/02-git-checkout.md
+        - 3. git revert: git/04-undo-and-recovery/03-git-revert.md
+        - 4. git reset: git/04-undo-and-recovery/04-git-reset.md
+        - 5. git stash: git/04-undo-and-recovery/05-git-stash.md
+
+      - 05. Git with Github:
+        - 1. Local vs Remote Repo: git/05-git-with-github/01-local-vs-remote.md
+        - 2. Publish code to Remote: git/05-git-with-github/02-publish-to-remote.md
+        - 3. Get code from Remote: git/05-git-with-github/03-get-from-remote.md
+
   - Linux:
     - Here:
         - Topic Covered: linux/topics-covered.md
