@@ -23,6 +23,11 @@
 | `git add -A`  or <br>`git add --all`     | All changes in repo                | ✅                   | ✅                  | Best for full staging           |
 
 
+**Check Staged file**:
+```bash
+git ls-files --stage
+```
+
 
 **Unstaging Changes**:
 ```bash

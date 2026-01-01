@@ -23,21 +23,6 @@ After staging, files are ready to be **committed**.
 * It saves the current state of the project
 * Each commit includes a **message** describing the changes
 
----
-Before making your **first commit**,  configure Git with  **name and email**.
-
-```bash
-
-# locally : only for the current repo
-git config user.name "Your Name"    
-git config user.email "you@example.com"
-
-# globally : applies to all repositories on  system
-git config --global user.name "Your Name"   
-git config --global user.email "you@example.com"  
-```
-
-![alt text](image/commi23.png)
 
 ---
 

@@ -17,6 +17,7 @@
 
 git checkout <hash>     # Detach HEAD at a specific commit (can create a new branch from here)
 git checkout HEAD~2     # View the state 2 commits before HEAD
+git checkout HEAD~2 file.txt #view the state of file
 git checkout main       # Re-attach HEAD to a branch
 git reflog              # Show history of HEAD movements (branch changes, commits, resets)
 git restore <filename>  # Restore file to last committed version

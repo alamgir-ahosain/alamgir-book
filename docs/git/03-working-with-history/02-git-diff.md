@@ -5,7 +5,7 @@
 
 * Shows differences **between working directory and staging area**
 * Helps see what is modified but **not yet staged**
-
+![alt text](image/diff-workflow.png)
 <h2>How to Read Diff</h2>
 
 * `a/` → old version of file
@@ -21,7 +21,9 @@
 
 nano nav-bar.html    # Edit a file
 git add nav-bar.html # Stage the file
+
 git diff --staged    # Check staged changes
+git diff HEAD        # same as above
 ```
 ![alt text](image/diff1.png)
 

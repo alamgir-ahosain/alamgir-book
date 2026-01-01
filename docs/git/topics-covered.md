@@ -7,6 +7,8 @@
 * 01 . **.git Folder** : Understanding the `.git` folder
 * 02 . **Git Behind the Scenes** : How Git works internally
 * 03 . **.gitignore** : Ignoring files and folders in Git
+* 04 . **git config** : Git Configuration Level
+
 
 ### 01. Basic Workflow
 
@@ -30,6 +32,7 @@
 
 ### 04. Undo and Recovery
 
+* 00 . **git mv** : Rename File
 * 01 . **git rm** : Remove file and folder from repository
 * 02 . **git checkout** : Switch branches or restore files
 * 03 . **git revert** : Revert a commit by creating a new commit

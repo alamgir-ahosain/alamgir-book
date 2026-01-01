@@ -235,6 +235,7 @@ nav:
         - 1. .git Folder: git/00-getting-started/01-git-folder.md
         - 2. Git Behind the Scenes: git/00-getting-started/02-git-behind-the-scenes.md
         - 3. gitignore: git/00-getting-started/03-gitignore.md
+        - 4. configuration Level: git/00-getting-started/04-git-configuration-level.md
 
       - 01. Basic Workflow:
         - 1. git init: git/01-basic-workflow/01-git-init.md
@@ -254,6 +255,7 @@ nav:
         - 4. git reflog: git/03-working-with-history/04-git-reflog.md
 
       - 04. Undo and Recovery:
+        - 0. git mv: git/04-undo-and-recovery/00-git-mv.md
         - 1. git rm: git/04-undo-and-recovery/01-git-rm.md
         - 2. git checkout: git/04-undo-and-recovery/02-git-checkout.md
         - 3. git revert: git/04-undo-and-recovery/03-git-revert.md
