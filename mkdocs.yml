@@ -415,3 +415,14 @@ nav:
           - 4. Container vs Virtual Machine: docker/4-container-vs-vm.md
           - 5. Docker and Container: docker/5-docker-and-container.md
           - 6. Docker Engine: docker/6-docker-engine.md
+      - 01. Working with Image and Container:
+          -  1. Image vs Container: docker/01-working-with-containers-and-image/01-container-vs-image.md
+          -  2. Detached vs Interactive Mode: docker/01-working-with-containers-and-image/02-detached-vs-interactive-mode.md
+          -  3. Basic Command: docker/01-working-with-containers-and-image/03-basic-docker-commands.md
+          -  4. run vs exec: docker/01-working-with-containers-and-image/04-docker-run-vs-exec.md
+          -  5. Create an Image and Container: docker/01-working-with-containers-and-image/05-create-image.md
+      - 02. Understanding Dockerfile:
+          -  1. Why Dockerfile?: docker/02-understanding-dockerfile/01-why-dockerfile.md          
+          -  2. CMD: docker/02-understanding-dockerfile/02-cmd.md
+          -  3. WORDIR: docker/02-understanding-dockerfile/03-workdir.md
+          -  4. Magic Behind The Dockerfile: docker/02-understanding-dockerfile/04-behind-scenes.md
