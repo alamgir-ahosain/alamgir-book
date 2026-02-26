@@ -425,5 +425,20 @@ nav:
       - 02. Understanding Dockerfile:
           -  1. Why Dockerfile?: docker/02-understanding-dockerfile/01-why-dockerfile.md          
           -  2. CMD: docker/02-understanding-dockerfile/02-cmd.md
-          -  3. WORDIR: docker/02-understanding-dockerfile/03-workdir.md
+          -  3. WORDIR: docker/02-understanding-dockerfile/03-workdir.mddeactivate
           -  4. Magic Behind The Dockerfile: docker/02-understanding-dockerfile/04-behind-scenes.md
+
+  - Networking:
+    - Here: 
+      - Topic Covered: networking/100-topics-covered.md
+      - 01. The DHCP Lifecycle :
+          -  1. IP Address Assignment Process: networking/dhcp/01-IP Address Assignment Process.md
+          - 2. Subnet and Subnet mask: networking/dhcp/02-subnet.md
+          - 3. DHCP Broadcast Discovery: networking/dhcp/03-DHCP Broadcast Discovery.md
+          - 4. DHCP Discovery: networking/dhcp/04-dhcp-discovery.md
+          - 5. DHCP Offer: networking/dhcp/05-dhcp-offer.md
+          - 6. DHCP Request and Acknowledge: networking/dhcp/06-dhcp-request and acknowledge.md
+          - 7. DHCP Lease & Handshake: networking/dhcp/07-DHCP Lease & Handshake.md
+          - 8. Switch: networking/dhcp/08-switch.md
+          - 9. Address Resolution Protocol (ARP): networking/dhcp/09-arp.md
+
